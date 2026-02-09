@@ -16,10 +16,8 @@ tritanope).
 1. Colorscheme main colors have APCA level above 90, but less than 100
 2. Comments are highlighted (>70 APCA level), I usually read them
 3. Functions have a bold font, I look at them as the most important parts of a program
-4. Statements have a bold font
-5. Errors have a bold and underlined font
-6. Warnings have an underlined font
-7. A specific group has an italic font 
+4. Errors have a bold and underlined font
+5. Warnings have an underlined font
 
 ## Installation
 
