@@ -60,7 +60,7 @@ hi! link Question Normal
 hi! link Removed Normal
 hi! link Repeat Normal
 hi! link SignColumn Normal
-hi! link Special Italic
+hi! link Special Normal
 hi! link SpecialKey Special
 hi! link SpecialChar Special
 hi! link SpecialComment Special
@@ -68,7 +68,7 @@ hi! link SpellBad Underlined
 hi! link SpellCap Underlined
 hi! link SpellLocal Normal
 hi! link SpellRare SpellLocal
-hi! link Statement Bold
+hi! link Statement Normal
 hi! link StatusLineTerm StatusLine
 hi! link StatusLineTermNC StatusLineNC
 hi! link StorageClass Normal
@@ -315,7 +315,6 @@ if &background == 'light'
     hi PmenuThumb ctermfg=NONE ctermbg=0 cterm=NONE
     hi QuickFixLine ctermfg=0 ctermbg=11 cterm=NONE
     hi Search ctermfg=15 ctermbg=8 cterm=NONE
-    hi Statement ctermfg=NONE ctermbg=NONE cterm=bold
     hi StatusLine ctermfg=15 ctermbg=8 cterm=bold
     hi StatusLineNC ctermfg=0 ctermbg=7 cterm=NONE
     hi Todo ctermfg=4 ctermbg=NONE cterm=bold
@@ -357,7 +356,6 @@ if &background == 'light'
     hi PmenuThumb ctermfg=NONE ctermbg=8 cterm=NONE
     hi QuickFixLine ctermfg=0 ctermbg=7 cterm=NONE
     hi Search ctermfg=7 ctermbg=0 cterm=bold
-    hi Statement ctermfg=NONE ctermbg=NONE cterm=bold
     hi StatusLine ctermfg=7 ctermbg=0 cterm=bold
     hi StatusLineNC ctermfg=0 ctermbg=7 cterm=NONE
     hi Todo ctermfg=4 ctermbg=NONE cterm=bold
@@ -386,7 +384,6 @@ if &background == 'light'
    hi PmenuExtraSel term=bold,reverse
    hi PmenuSel term=bold,reverse
    hi Search term=bold,reverse
-   hi Statement term=bold
    hi StatusLine term=bold
    hi StatusLineNC term=NONE
    hi Todo term=bold
