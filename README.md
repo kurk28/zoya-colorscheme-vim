@@ -1,3 +1,7 @@
+# Migration
+
+Migrated to https://codeberg.org/kurk28/zoya-colorscheme-vim
+
 # Zoya Colorscheme
 
 Light and dark colorscheme with minimal colors for Vim.
